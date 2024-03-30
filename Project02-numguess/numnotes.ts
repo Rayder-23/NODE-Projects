@@ -1,7 +1,7 @@
 import inquirer from "inquirer";
 
-// 'Math.random() * max + min' is used to generate a random number and map it to a desired range
-// Using 'Math.floor()' it is made into an integer
+// 'Math.random() * max + min' is used to generate a random number and map it to a desired range.
+// Using 'Math.floor()' it is made into an integer, it rounds to the lowest number.
 let numgen = Math.floor(Math.random() * 10 + 1);
 
 console.log(numgen);
