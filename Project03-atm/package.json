@@ -1,9 +1,10 @@
 {
-  "name": "project02-atm",
-  "version": "1.0.0",
+  "name": "ry99-02atm",
+  "version": "2.0.4",
   "description": "An ATM with a pre-made account, basic withdrawl and deposit options.",
   "main": "index.js",
   "type": "module",
+  "bin": "atm.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

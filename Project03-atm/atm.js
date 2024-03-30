@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 const accountName = "John";
 const accountPass = "1234";
@@ -30,11 +31,11 @@ console.log(" ");
 let wit = (balance - input2.amount);
 let dep = (balance + input2.amount);
 if (input2.change == "Withdrawal" && input2.amount <= balance) {
-    console.log("You're balance is now " + wit);
+    console.log(`Your balance is now ${wit}.`);
 }
 else if (input2.change == "Withdrawal" && input2.amount > balance) {
-    console.log("You're withdrawal request is larger than your balance, please try again.");
+    console.log("Your withdrawal request is larger than your balance, please try again.");
 }
 else if (input2.change == "Deposit") {
-    console.log("You're balance is now " + dep);
+    console.log(`Your balance is now ${dep}.`);
 }
