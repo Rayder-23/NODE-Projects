@@ -1,1 +1,1 @@
-An ATM with a pre-made account, basic withdrawl and deposit options.
+An ATM with a pre-made account, basic withdrawal and deposit options.
