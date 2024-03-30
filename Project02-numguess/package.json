@@ -1,7 +1,7 @@
 {
   "name": "numguess",
   "version": "1.0.0",
-  "description": "A simple Number Guessing Game.",
+  "description": "A simple Number Guessing Game from 1-5, including 3 rounds.",
   "main": "index.js",
   "type": "module",
   "scripts": {
