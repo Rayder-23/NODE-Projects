@@ -1,9 +1,10 @@
 {
-  "name": "numguess",
-  "version": "1.0.0",
+  "name": "ry99-numguess",
+  "version": "1.2.0",
   "description": "A simple Number Guessing Game from 1-5, including 3 rounds.",
   "main": "index.js",
   "type": "module",
+  "bin": "numguess.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

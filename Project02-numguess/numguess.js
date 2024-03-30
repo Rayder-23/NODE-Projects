@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let numgen = Math.floor(Math.random() * 5 + 1);
 console.log("Hint " + numgen);
