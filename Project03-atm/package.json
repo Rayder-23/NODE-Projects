@@ -1,7 +1,7 @@
 {
   "name": "ry99-02atm",
-  "version": "2.0.4",
-  "description": "An ATM with a pre-made account, basic withdrawl and deposit options.",
+  "version": "2.1.5",
+  "description": "An ATM with a pre-made account, basic withdrawal and deposit options.",
   "main": "index.js",
   "type": "module",
   "bin": "atm.js",
